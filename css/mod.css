@@ -1,0 +1,110 @@
+h4 {
+    font-size: 30px;
+    line-height: 38px;
+	font-weight: bold;
+	color: #fff;
+}
+
+h5 {
+    font-size: 22px;
+    line-height: 28px;
+	color: #fff;
+}
+
+.pix-small2-width-text{max-width: 700px;}
+
+input[type="checkbox"]{
+	width:20px;
+	height: 20px;
+	margin-right: 5px;
+}
+
+.carousel .carousel-inner img{
+	margin: 0 auto;
+}
+
+.clear{clear: both !important;}
+
+img:hover{opacity:0.8;}
+
+h2{line-height:42px !important; margin-bottom:25px;}
+h1{line-height:60px !important; }
+
+/*.glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-prev, .carousel-control .icon-next {
+    width: 45px !important;
+    height: 41px !important;
+    margin-top: 45px;
+    font-size: 30px;
+	background-color: silver;
+	padding: 5px;
+	border-radius: 5px;
+}*/
+
+.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right{
+	margin-top: 45px;
+}
+
+.carousel-control.left, .carousel-control.right{
+	background-image: none !important;
+	background-image: none !important;
+	background-repeat: none !important;
+}
+
+
+#footer a{
+	text-align: center;
+    line-height: 36px;
+    font-size: 1.3em;
+    color: #888;
+	font-weight: bold;
+}
+
+a.selectable:hover{opacity:0.6;}
+
+/*Cookie Consent Begin*/
+#cookieConsent {
+    background-color: rgba(20,20,20,0.8);
+    min-height: 26px;
+    font-size: 14px;
+    color: #ccc;
+    line-height: 26px;
+    padding: 8px 0 8px 30px;
+    font-family: "Trebuchet MS",Helvetica,sans-serif;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: none;
+    z-index: 9999;
+    text-align: center;
+}
+#cookieConsent a {
+    color: #e6950f;
+    text-decoration: none;
+}
+#closeCookieConsent {
+    float: right;
+    display: inline-block;
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+    margin: -15px 0 0 0;
+    font-weight: bold;
+}
+#closeCookieConsent:hover {
+    color: #FFF;
+}
+#cookieConsent a.cookieConsentOK {
+    background-color: #e6950f;
+    color: #fff;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 0 20px;
+    cursor: pointer;
+    float: right;
+    margin: 0 60px 0 10px;
+}
+#cookieConsent a.cookieConsentOK:hover {
+    background-color: #E0C91F;
+}
+/*Cookie Consent End*/
